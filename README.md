@@ -25,9 +25,9 @@ I sincerely admit ! Not everything thing you saw on the website was developed by
 scratch, most of it is my original creation otherwise some of the elements are inspired
 or reproduced from the open source public code.
 <br /><br />
-## **Our contributors** 
+## **contributors** 
 
 Name  | Roles
 ------------ | -------------
 :sunglasses: [@jamesbright](https://github.com/jamesbright) | **Owner**
-# portfolio.github.io
+# jamesbright.github.io
