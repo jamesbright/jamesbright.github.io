@@ -29,5 +29,5 @@ or reproduced from the open source public code.
 
 Name  | Roles
 ------------ | -------------
-:sunglasses: [@RoshanKrSoni](https://github.com/jamesbright) | **Owner**
+:sunglasses: [@jamesbright](https://github.com/jamesbright) | **Owner**
 # portfolio.github.io
