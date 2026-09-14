@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of James Ononiwu — Software Engineer, AI Engineer, Backend & Full-Stack Developer, and GLG Expert Consultant.">
+  <meta name="keywords" content="James Ononiwu, Software Engineer, AI Engineer, Backend Developer, Python, FastAPI, Node.js, LangChain, GLG Consultant">
+  <meta name="author" content="James Ononiwu">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="James Ononiwu | Software & AI Engineer">
+  <meta property="og:description" content="5+ years building scalable web applications, backend architectures, APIs, and AI-powered products. Expert Consultant with GLG.">
+  <meta property="og:type" content="website">
+
+  <title>James Ononiwu | Software Engineer & AI Engineer</title>
+  
+  <!-- Modern Font Stack preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo" aria-label="James Ononiwu Home">
+        <div class="logo-badge">JO</div>
+        <div class="logo-text">
+          <span class="logo-title">James Ononiwu</span>
+          <span class="logo-sub">AI & Backend Engineer</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#consulting" class="nav-link">GLG Advisory</a>
+        <a href="#competencies" class="nav-link">Competencies</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#case-studies" class="nav-link">Architectures</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <!-- Moon Icon (for switching to light) -->
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (for switching to dark) -->
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-availability">
+            <span class="status-indicator"></span>
+            Available for Select Advisory & Engineering Engagements
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-gradient">James Ononiwu</span>
+          </h1>
+
+          <div class="hero-role">
+            Software Engineer <span>/</span> AI Engineer <span>/</span> Backend Architect
+          </div>
+
+          <p class="hero-summary">
+            Software and AI Engineer with <strong>5+ years</strong> of professional experience designing scalable web architectures, production REST APIs, AI-powered products, and intelligent business automation solutions. Also an <strong>Expert Consultant with GLG</strong>, advising global clients on AI, emerging technologies, and digital transformation.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#contact" class="btn btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Let's Connect
+            </a>
+            <a href="#experience" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              View Experience
+            </a>
+            <a href="#consulting" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              GLG Advisory
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/james-ononiwu-4719519a" target="_blank" rel="noopener noreferrer" class="social-chip" title="LinkedIn Profile">
+              <svg viewBox="0 0 24 24">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <!-- X (Twitter) -->
+            <a href="https://x.com/james_ononiwu" target="_blank" rel="noopener noreferrer" class="social-chip" title="X (Twitter) Profile">
+              <svg viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+              <span>@james_ononiwu</span>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:jamesononiwu@gmail.com" class="social-chip" title="Send Direct Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>jamesononiwu@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Card / Terminal Showcase -->
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="hero-terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-title">james-ononiwu.eng // metrics</div>
+            </div>
+
+            <div class="hero-stats-grid">
+              <div class="stat-box">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Years Engineering Experience</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">GLG</div>
+                <div class="stat-label">Global Tech & AI Expert</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Production Reliability Mindset</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">Full-Life</div>
+                <div class="stat-label">Concept → Deploy → Scale</div>
+              </div>
+            </div>
+
+            <div class="terminal-code-snippet">
+              <div><span class="code-keyword">const</span> engineer = {</div>
+              <div>&nbsp;&nbsp;name: <span class="code-string">"James Ononiwu"</span>,</div>
+              <div>&nbsp;&nbsp;focus: [<span class="code-string">"AI Revenue Infrastructure"</span>, <span class="code-string">"Distributed Backends"</span>],</div>
+              <div>&nbsp;&nbsp;stack: [<span class="code-string">"Python"</span>, <span class="code-string">"FastAPI"</span>, <span class="code-string">"LangChain"</span>, <span class="code-string">"Node.js"</span>],</div>
+              <div>&nbsp;&nbsp;advisory: <span class="code-string">"GLG Technology & AI Council"</span>,</div>
+              <div>&nbsp;&nbsp;status: <span class="code-fn">readyForImpact</span>()</div>
+              <div>};</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Summary / About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">About Me</div>
+          <h2 class="section-title">Bridging Technical Depth & <span class="text-gradient">Strategic Business Impact</span></h2>
+          <p class="section-desc">
+            Experienced across Python, JavaScript, TypeScript, FastAPI, Node.js, Laravel, Vue.js, MySQL, PostgreSQL, MongoDB, AWS, and CI/CD, with an uncompromising focus on applying AI to high-value real-world problems.
+          </p>
+        </div>
+
+        <div style="max-width: 900px; margin: 0 auto; line-height: 1.8; color: var(--text-secondary); font-size: 1.05rem;">
+          <p style="margin-bottom: 20px;">
+            Throughout 5+ years of engineering production systems, I have navigated the end-to-end software lifecycle: from initial product concept and domain modeling to architectural specification, resilient backend development, automated testing, and scalable cloud deployment.
+          </p>
+          <p style="margin-bottom: 20px;">
+            Currently, I build <strong>AI-powered revenue infrastructure and intelligent automation workflows</strong> at Web Chain AI, creating automated prospect-discovery engines and LLM-assisted hyper-personalized engagement pipelines. Concurrently, as an <strong>Expert Consultant with GLG</strong>, I advise global enterprise leaders, startup founders, and investors on technology evaluation, AI feasibility, and digital transformation.
+          </p>
+          <p>
+            My core strength lies at the intersection of <strong>engineering execution, AI problem-solving, product thinking, and business understanding</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GLG Advisory Spotlight Section -->
+    <section id="consulting" style="padding-top: 20px;">
+      <div class="container">
+        <div class="advisory-banner">
+          <div class="advisory-badge-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            Executive Technology Advisory
+          </div>
+
+          <div class="advisory-grid">
+            <div class="advisory-content">
+              <h3 class="advisory-title">GLG — Expert Consultant</h3>
+              <p class="advisory-text">
+                Providing independent, subject-matter expertise to global organizations and investment firms evaluating software engineering architectures, artificial intelligence, blockchain ecosystems, and enterprise digital transformation initiatives.
+              </p>
+
+              <div class="advisory-points">
+                <div class="advisory-point">
+                  <div class="advisory-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <div><strong>Strategic Tech Due Diligence:</strong> Translating complex technical architectures into actionable recommendations supporting product strategy, operational improvement, and capital allocation.</div>
+                </div>
+
+                <div class="advisory-point">
+                  <div class="advisory-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <div><strong>AI & Feasibility Assessment:</strong> Evaluating commercial viability, practical limitations, and architectural requirements of emerging AI models and automation platforms.</div>
+                </div>
+
+                <div class="advisory-point">
+                  <div class="advisory-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <div><strong>Cross-Functional Clarity:</strong> Proven track record communicating deep engineering details clearly to C-suite leaders, non-technical stakeholders, and investors alike.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="advisory-client-types">
+              <div class="client-types-title">Advisory Scope & Stakeholders</div>
+              <div class="client-chips">
+                <span class="client-chip">Seed-to-Scale Startups</span>
+                <span class="client-chip">Venture Capital Funds</span>
+                <span class="client-chip">Private Equity Investors</span>
+                <span class="client-chip">Enterprise CTOs & VPs</span>
+                <span class="client-chip">AI Adoption Strategy</span>
+                <span class="client-chip">Software Feasibility Audits</span>
+                <span class="client-chip">Digital Transformation</span>
+                <span class="client-chip">Blockchain Evaluation</span>
+              </div>
+              <div style="margin-top: 24px;">
+                <a href="#contact" class="btn btn-secondary btn-sm" style="width: 100%;">
+                  Request Advisory Consultation
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Competencies Section -->
+    <section id="competencies">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Pillars of Excellence</div>
+          <h2 class="section-title">Core <span class="text-gradient">Competencies</span></h2>
+          <p class="section-desc">
+            Engineered around four foundational pillars designed to produce dependable, high-scale software and intelligent systems.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path>
+                <path d="M12 6v6l4 2"></path>
+                <path d="M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Artificial Intelligence & LLMs</h3>
+            <p class="pillar-desc">
+              Building intelligent revenue engines, autonomous multi-step AI agents, LangChain workflows, structured prompt engineering, and production LLM integrations that automate complex business tasks.
+            </p>
+            <div class="pillar-tags">
+              <span class="pill-tag">Generative AI</span>
+              <span class="pill-tag">AI Agents</span>
+              <span class="pill-tag">LangChain</span>
+              <span class="pill-tag">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Backend & API Architecture</h3>
+            <p class="pillar-desc">
+              Designing high-performance, fault-tolerant REST APIs, microservices, and backend services with Python (FastAPI, Flask), Node.js, and Laravel, focusing on security, low latency, and modularity.
+            </p>
+            <div class="pillar-tags">
+              <span class="pill-tag">FastAPI</span>
+              <span class="pill-tag">Node.js</span>
+              <span class="pill-tag">Laravel</span>
+              <span class="pill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Databases & Cloud Systems</h3>
+            <p class="pillar-desc">
+              Architecting normalized relational and document databases with MySQL, PostgreSQL, MongoDB, and Redis caching. Deploying scalable cloud infrastructure across AWS, Docker, and automated CI/CD pipelines.
+            </p>
+            <div class="pillar-tags">
+              <span class="pill-tag">PostgreSQL</span>
+              <span class="pill-tag">Redis</span>
+              <span class="pill-tag">AWS</span>
+              <span class="pill-tag">Docker / CI/CD</span>
+            </div>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="6" cy="6" r="3"></circle>
+                <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                <line x1="6" y1="9" x2="6" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="pillar-title">Workflow Automation & Systems</h3>
+            <p class="pillar-desc">
+              Bridging disparate enterprise systems using n8n, custom webhooks, third-party API integrations, and automated testing suites to transform tedious manual tasks into self-healing autonomous workflows.
+            </p>
+            <div class="pillar-tags">
+              <span class="pill-tag">n8n</span>
+              <span class="pill-tag">Webhooks</span>
+              <span class="pill-tag">FinTech & SaaS</span>
+              <span class="pill-tag">Automated Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Timeline -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Career History</div>
+          <h2 class="section-title">Professional <span class="text-gradient">Experience</span></h2>
+          <p class="section-desc">
+            A track record of engineering execution, software craftsmanship, and strategic leadership across high-growth startups and global consulting networks.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Role 1: GLG -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="timeline-marker-inner"></div></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Expert Consultant</h3>
+                  <div class="timeline-company">
+                    GLG (Gerson Lehrman Group)
+                  </div>
+                </div>
+                <div class="timeline-period">May 2025 – Present</div>
+              </div>
+              <div class="timeline-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Remote / USA
+              </div>
+              <ul class="timeline-bullets">
+                <li>Provide technology and subject-matter expertise to organizations seeking independent insights into software engineering, artificial intelligence, blockchain, digital transformation, and emerging technologies.</li>
+                <li>Advise global clients ranging from startups to established enterprises through one-on-one consultations, strategic discussions, and project-based engagements.</li>
+                <li>Translate complex technical concepts into practical business recommendations that support technology evaluation, product strategy, operational improvement, and investment decisions.</li>
+                <li>Evaluate emerging technologies, software architectures, AI applications, and digital products to help clients understand their technical feasibility, commercial potential, and implementation considerations.</li>
+                <li>Demonstrate exceptional ability to communicate complex engineering and AI concepts clearly to both technical engineering teams and non-technical executive stakeholders.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="pill-tag">AI Advisory</span>
+                <span class="pill-tag">Software Architecture</span>
+                <span class="pill-tag">Blockchain</span>
+                <span class="pill-tag">Digital Transformation</span>
+                <span class="pill-tag">Tech Due Diligence</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Web Chain AI -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="timeline-marker-inner"></div></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Engineer</h3>
+                  <div class="timeline-company">
+                    Web Chain AI
+                  </div>
+                </div>
+                <div class="timeline-period">February 2025 – Present</div>
+              </div>
+              <div class="timeline-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Nigeria
+              </div>
+              <ul class="timeline-bullets">
+                <li>Design and develop AI-powered revenue infrastructure focused on improving sales productivity, prospect discovery, and customer engagement.</li>
+                <li>Build intelligent systems that automate repetitive sales and business-development processes while maintaining personalized, contextual interactions.</li>
+                <li>Develop automated prospect-discovery workflows that identify high-potential customers and streamline the transition from lead discovery to outbound outreach.</li>
+                <li>Implement AI-assisted hyper-personalization engines to generate highly relevant messaging grounded in prospect intelligence and business context.</li>
+                <li>Integrate AI models and third-party services into production workflows to transform manual operations into scalable, self-operating automated systems.</li>
+                <li>Apply prompt engineering and LLM-based approaches to consistently elevate the quality, reliability, and precision of AI outputs.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">FastAPI</span>
+                <span class="pill-tag">LLM Agents</span>
+                <span class="pill-tag">LangChain</span>
+                <span class="pill-tag">n8n</span>
+                <span class="pill-tag">Automation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: TrendBizTech -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="timeline-marker-inner"></div></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Engineer</h3>
+                  <div class="timeline-company">
+                    TrendBizTech
+                  </div>
+                </div>
+                <div class="timeline-period">July 2021 – January 2025</div>
+              </div>
+              <div class="timeline-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Nigeria
+              </div>
+              <ul class="timeline-bullets">
+                <li>Led backend engineering initiatives involving REST API development, database architecture, application security hardening, and performance optimization.</li>
+                <li>Designed and implemented resilient backend services supporting web applications across e-commerce, financial technology, and business management use cases.</li>
+                <li>Developed secure and maintainable APIs ensuring fast communication between frontend applications, microservices, databases, and third-party integrations.</li>
+                <li>Optimized relational database queries, indexes, and application logic to significantly reduce response latencies and boost application responsiveness.</li>
+                <li>Implemented automated testing practices to enhance software reliability and systematically minimize regression bugs across release cycles.</li>
+                <li>Contributed across the entire lifecycle from feature conception through architecture, implementation, testing, deployment, and ongoing maintenance.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Node.js</span>
+                <span class="pill-tag">Laravel</span>
+                <span class="pill-tag">MySQL / PostgreSQL</span>
+                <span class="pill-tag">REST APIs</span>
+                <span class="pill-tag">CI/CD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 4: Keble -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="timeline-marker-inner"></div></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Engineer Intern</h3>
+                  <div class="timeline-company">
+                    Keble
+                  </div>
+                </div>
+                <div class="timeline-period">February 2021 – April 2021</div>
+              </div>
+              <div class="timeline-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Nigeria
+              </div>
+              <ul class="timeline-bullets">
+                <li>Collaborated with senior engineers to design and implement new application features in a fast-paced environment.</li>
+                <li>Developed modular backend functionality using Node.js and TypeScript, and built responsive frontend components using Vue.js.</li>
+                <li>Wrote and executed automated unit and integration tests using Jest to validate application stability.</li>
+                <li>Investigated and debugged technical software issues across frontend and backend layers.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="pill-tag">Node.js</span>
+                <span class="pill-tag">TypeScript</span>
+                <span class="pill-tag">Vue.js</span>
+                <span class="pill-tag">Jest</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 5: Data Science Nigeria -->
+          <div class="timeline-item">
+            <div class="timeline-marker"><div class="timeline-marker-inner"></div></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Program Facilitator</h3>
+                  <div class="timeline-company">
+                    Data Science Nigeria
+                  </div>
+                </div>
+                <div class="timeline-period">February 2020 – April 2020</div>
+              </div>
+              <div class="timeline-location">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Nigeria
+              </div>
+              <ul class="timeline-bullets">
+                <li>Co-facilitated introductory data science and artificial intelligence training programs across university campuses.</li>
+                <li>Introduced learners to foundational concepts in machine learning, data engineering, model development, and real-world deployment.</li>
+                <li>Trained and deployed machine learning models as part of hands-on practical curriculum activities.</li>
+                <li>Led a competitive team in an AI hackathon on Zindi, applying machine learning techniques to solve complex predictive challenges.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="pill-tag">Machine Learning</span>
+                <span class="pill-tag">Python</span>
+                <span class="pill-tag">Scikit-learn</span>
+                <span class="pill-tag">Zindi Hackathon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Architectures & Case Studies Section -->
+    <section id="case-studies" style="background: rgba(255, 255, 255, 0.01);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Engineered Solutions</div>
+          <h2 class="section-title">Architectural <span class="text-gradient">Case Studies</span></h2>
+          <p class="section-desc">
+            Deep dive into representative systems engineered for high reliability, automated intelligence, and scale.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Architecture 1 -->
+          <div class="project-card">
+            <div class="project-category">AI & Intelligent Automation</div>
+            <h3 class="project-title">AI-Powered Revenue & Prospecting Engine</h3>
+            <p class="project-desc">
+              End-to-end autonomous revenue pipeline that scours prospect discovery channels, extracts business signals, and utilizes LangChain and fine-tuned prompt chains to craft contextualized, hyper-personalized outreach at scale.
+            </p>
+            <div class="project-impact">
+              <strong>Impact:</strong> Replaced hours of manual prospecting with real-time automated discovery, elevating lead relevance and sales conversion metrics.
+            </div>
+            <div class="project-tags">
+              <span class="pill-tag">FastAPI</span>
+              <span class="pill-tag">LangChain</span>
+              <span class="pill-tag">OpenAI</span>
+              <span class="pill-tag">n8n</span>
+              <span class="pill-tag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <!-- Architecture 2 -->
+          <div class="project-card">
+            <div class="project-category">Backend & FinTech Infrastructure</div>
+            <h3 class="project-title">High-Throughput FinTech & E-Commerce Core</h3>
+            <p class="project-desc">
+              Resilient transactional backend supporting financial operations, payment gateway integrations, order state machines, and inventory consistency. Implemented with connection pooling, database query tuning, and automated test coverage.
+            </p>
+            <div class="project-impact">
+              <strong>Impact:</strong> Enhanced database query throughput, eliminated data race conditions during peak checkout traffic, and reduced production regressions to near-zero.
+            </div>
+            <div class="project-tags">
+              <span class="pill-tag">Node.js</span>
+              <span class="pill-tag">Laravel</span>
+              <span class="pill-tag">MySQL</span>
+              <span class="pill-tag">Redis</span>
+              <span class="pill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Architecture 3 -->
+          <div class="project-card">
+            <div class="project-category">Automation & Cloud Operations</div>
+            <h3 class="project-title">Autonomous Workflow & Integration Fabric</h3>
+            <p class="project-desc">
+              Modular integration architecture connecting multiple CRM, messaging, and database services through event-driven webhooks, n8n orchestration, and cloud-native container deployments on AWS.
+            </p>
+            <div class="project-impact">
+              <strong>Impact:</strong> Unified disparate SaaS platforms into a synchronized, self-recovering workflow mesh with automated alerting and failover.
+            </div>
+            <div class="project-tags">
+              <span class="pill-tag">n8n</span>
+              <span class="pill-tag">Docker</span>
+              <span class="pill-tag">AWS</span>
+              <span class="pill-tag">Webhooks</span>
+              <span class="pill-tag">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix Section -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Technology Matrix</div>
+          <h2 class="section-title">Technical <span class="text-gradient">Skills</span></h2>
+          <p class="section-desc">
+            Production-tested competencies spanning modern programming languages, AI/ML stacks, distributed backends, databases, and DevOps practices.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+          <button class="filter-btn" data-filter="ai">AI / ML</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="databases">Databases & Cloud</button>
+          <button class="filter-btn" data-filter="automation">Automation & Practices</button>
+        </div>
+
+        <div class="skills-container">
+          <!-- Languages -->
+          <div class="skill-category-card" data-category="languages">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title">Languages</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">Python</span>
+              <span class="skill-item">JavaScript (ES6+)</span>
+              <span class="skill-item">TypeScript</span>
+              <span class="skill-item">PHP</span>
+              <span class="skill-item">SQL</span>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-category-card" data-category="backend">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h3 class="skill-category-title">Backend</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">FastAPI</span>
+              <span class="skill-item">Flask</span>
+              <span class="skill-item">Node.js</span>
+              <span class="skill-item">Laravel</span>
+              <span class="skill-item">RESTful APIs</span>
+              <span class="skill-item">Microservices</span>
+            </div>
+          </div>
+
+          <!-- AI / ML -->
+          <div class="skill-category-card" data-category="ai">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"></path><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <h3 class="skill-category-title">AI & Machine Learning</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">Generative AI</span>
+              <span class="skill-item">LLM Applications</span>
+              <span class="skill-item">LangChain</span>
+              <span class="skill-item">Prompt Engineering</span>
+              <span class="skill-item">Machine Learning</span>
+              <span class="skill-item">PyTorch</span>
+              <span class="skill-item">Scikit-learn</span>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-category-card" data-category="frontend">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3 class="skill-category-title">Frontend</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">Vue.js</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">HTML5</span>
+              <span class="skill-item">CSS3</span>
+              <span class="skill-item">Tailwind CSS</span>
+              <span class="skill-item">Bootstrap</span>
+            </div>
+          </div>
+
+          <!-- Databases & Cloud -->
+          <div class="skill-category-card" data-category="databases">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Databases & Cloud</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">MySQL</span>
+              <span class="skill-item">PostgreSQL</span>
+              <span class="skill-item">MongoDB</span>
+              <span class="skill-item">Redis</span>
+              <span class="skill-item">AWS</span>
+              <span class="skill-item">Docker</span>
+              <span class="skill-item">CI/CD</span>
+              <span class="skill-item">Linux</span>
+            </div>
+          </div>
+
+          <!-- Automation & Practices -->
+          <div class="skill-category-card" data-category="automation">
+            <div class="skill-card-header">
+              <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+              </div>
+              <h3 class="skill-category-title">Automation & Practices</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-item">n8n</span>
+              <span class="skill-item">API Integrations</span>
+              <span class="skill-item">Webhooks</span>
+              <span class="skill-item">Workflow Automation</span>
+              <span class="skill-item">Automated Testing</span>
+              <span class="skill-item">Git / GitHub</span>
+              <span class="skill-item">Agile / Scrum</span>
+              <span class="skill-item">API Security</span>
+              <span class="skill-item">Software Architecture</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Academic & Engineering Foundation</div>
+          <h2 class="section-title">Education & <span class="text-gradient">Training</span></h2>
+          <p class="section-desc">
+            Formal engineering foundations coupled with intensive project-based systems programming.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Holberton School -->
+          <div class="edu-card">
+            <div class="edu-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <h3 class="edu-degree">Software Engineering</h3>
+            <div class="edu-school">Holberton School</div>
+            <div class="edu-period">September 2022 – September 2023</div>
+            <p class="edu-desc">
+              Intensive, peer-learning software engineering program focusing heavily on algorithms, low-level systems programming, full-stack web architecture, backend engineering, DevOps workflows, and collaborative software development.
+            </p>
+          </div>
+
+          <!-- Michael Okpara University -->
+          <div class="edu-card">
+            <div class="edu-icon-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="edu-degree">Bachelor of Engineering (B.Eng.)</h3>
+            <div class="edu-school">Michael Okpara University</div>
+            <div class="edu-period">Computer Engineering | May 2014 – December 2019</div>
+            <p class="edu-desc">
+              Comprehensive 5-year engineering degree covering computer hardware architectures, embedded systems, microprocessors, digital signal processing, computing fundamentals, and software principles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Interests Banner -->
+    <section style="padding: 40px 0 20px 0;">
+      <div class="container">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 32px; text-align: center;">
+          <h3 style="font-size: 1.1rem; color: var(--text-muted); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 16px;">
+            Professional Interests & Focus Areas
+          </h3>
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            <span class="pill-tag">Artificial Intelligence</span>
+            <span class="pill-tag">Generative AI</span>
+            <span class="pill-tag">AI Agents</span>
+            <span class="pill-tag">Software Architecture</span>
+            <span class="pill-tag">Developer Tools</span>
+            <span class="pill-tag">Automation</span>
+            <span class="pill-tag">SaaS</span>
+            <span class="pill-tag">FinTech</span>
+            <span class="pill-tag">Blockchain</span>
+            <span class="pill-tag">Data Science</span>
+            <span class="pill-tag">Cloud Computing</span>
+            <span class="pill-tag">Digital Transformation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">Let's Connect</div>
+          <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+          <p class="section-desc">
+            Open for technical advisory consultations, AI engineering initiatives, and high-impact engineering leadership roles.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info -->
+          <div class="contact-info-card">
+            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 10px; color: var(--text-primary);">Contact Information</h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 24px;">
+              Feel free to reach out directly via email or connect through LinkedIn and X.
+            </p>
+
+            <div class="contact-channels">
+              <!-- Email Item -->
+              <div class="channel-item">
+                <div class="channel-details">
+                  <div class="channel-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">Email Address</div>
+                    <a href="mailto:jamesononiwu@gmail.com" class="channel-value">jamesononiwu@gmail.com</a>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <button class="copy-btn copy-action-btn" data-copy="jamesononiwu@gmail.com" data-label="Email" title="Copy Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  </button>
+                  <a href="mailto:jamesononiwu@gmail.com" class="copy-btn" title="Open Mail App">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- LinkedIn Item -->
+              <div class="channel-item">
+                <div class="channel-details">
+                  <div class="channel-icon">
+                    <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/></svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">LinkedIn</div>
+                    <a href="https://linkedin.com/in/james-ononiwu-4719519a" target="_blank" rel="noopener noreferrer" class="channel-value">james-ononiwu-4719519a</a>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <button class="copy-btn copy-action-btn" data-copy="https://linkedin.com/in/james-ononiwu-4719519a" data-label="LinkedIn Link" title="Copy Profile URL">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  </button>
+                  <a href="https://linkedin.com/in/james-ononiwu-4719519a" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- X (Twitter) Item -->
+              <div class="channel-item">
+                <div class="channel-details">
+                  <div class="channel-icon">
+                    <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">X (Twitter)</div>
+                    <a href="https://x.com/james_ononiwu" target="_blank" rel="noopener noreferrer" class="channel-value">@james_ononiwu</a>
+                  </div>
+                </div>
+                <div class="channel-actions">
+                  <button class="copy-btn copy-action-btn" data-copy="https://x.com/james_ononiwu" data-label="X Profile" title="Copy X Profile">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  </button>
+                  <a href="https://x.com/james_ononiwu" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open X Profile">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Location Item -->
+              <div class="channel-item">
+                <div class="channel-details">
+                  <div class="channel-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                  </div>
+                  <div>
+                    <div class="channel-label">Location & Working Modes</div>
+                    <div class="channel-value">Nigeria (Available Worldwide / Remote)</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form / Message Composer -->
+          <div class="contact-form-container">
+            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 8px; color: var(--text-primary);">Send a Direct Message</h3>
+            <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 22px;">
+              Fill in your inquiry below. You can launch your mail app or copy the completed draft with one click.
+            </p>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Alex Smith" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email</label>
+                <input type="email" id="form-email" class="form-input" placeholder="alex@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="e.g. AI Engineering Collaboration or Advisory">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-textarea" placeholder="Describe your project, timeline, or advisory inquiry..." required></textarea>
+              </div>
+
+              <div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px;">
+                <button type="submit" class="btn btn-primary" style="flex: 1;">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                  Send via Email
+                </button>
+                <button type="button" id="copy-draft-btn" class="btn btn-secondary">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                  Copy Message Draft
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; 2026 <strong>James Ononiwu</strong>. Built for performance, scalability & intelligence.
+      </div>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/james-ononiwu-4719519a" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+        <a href="https://x.com/james_ononiwu" target="_blank" rel="noopener noreferrer" class="footer-link">X (@james_ononiwu)</a>
+        <a href="mailto:jamesononiwu@gmail.com" class="footer-link">Email</a>
+        <a href="#hero" class="footer-link" style="color: var(--primary-light);">Back to top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
